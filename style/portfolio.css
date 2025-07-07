@@ -1,0 +1,100 @@
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:45px
+        "wdth" 100; }
+
+        .header{
+            background-image: url("../imges/developer.png"),url("../imges/header_bg.png");
+            background-repeat: no-repeat;
+            background-position: top left,bottom right;
+        }
+
+        nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin: 50px 200px;
+        }
+        .nav-titel{
+            font-weight: 800px;
+            font-size:45px ;
+        }
+        .tex-primary{
+            color: #FD6E0A;
+        }
+        nav ul{
+            display: flex;
+            align-items: center;
+            
+        }
+        nav ul li{
+            list-style: none;
+            margin-right: 50px;
+        }
+        nav ul a{
+            text-decoration: none;
+            font-size: 20px;
+        }
+        .dark-2{
+            color: #474747;
+        }
+        .btn-primary{
+            background-color: #FD6E0A;
+            font-weight: bold;
+            font-size: 20px;
+            border: none;
+            color: white;
+            padding: 18px 35px;
+            border-radius: 5px;
+        }
+        /* banner style */
+
+        .banner{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 35px 0 200px;
+        }
+        .banner-content{
+            max-width: 580px;
+        }
+        .banner-wlc{
+            font-size: 45px;
+            font-weight: 600px;
+        }
+        .banner-titel{
+            font-size: 85px;
+            font-weight: bold;
+        }
+        .bnr-discrip{
+            font-size: 18px;
+        }
+        .bnr-profile-pic{
+            width: 580px;
+        }
+        /* sherd */
+        .secondary-bg{
+            background-color: #FFF8F3;
+        }
+
+        /* about style */
+        .about{
+            border-radius: 10px;
+            padding: 130px 15px;
+            text-align: center;
+            margin-top: 130px;
+        }
+        /* main */
+        main{
+            max-width: 1140px;
+            margin: 0 auto;
+        }
+
+        .item-discription{
+            font-weight: 600;
+        }
+        .about-items{
+            display: flex;
+            justify-content: space-around;
+        }
